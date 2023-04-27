@@ -1,0 +1,39 @@
+.background_sky{
+    background-image:url("./images/sky.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    width: 100%;
+    align-items: center
+}
+.avatar{
+    display: flex;
+    margin: auto;
+    padding-top: 15%;
+    width: 200px;
+    animation: rise-up 6s 1s forwards;
+}
+.greeting{
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0;
+    animation: appear 2s 2s forwards;
+}
+.greeting2{
+    font-family: 'Times New Roman', Times, serif;
+    color: bisque;
+    font-size: 30px;
+    text-align: center;
+    opacity: 0;
+    animation: appear 2s 4.5s forwards;
+}
+@keyframes rise-up{
+    from {padding-top: 15%;}
+    to {padding-top: 10%;}
+}
+@keyframes appear{
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
