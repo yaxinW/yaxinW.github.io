@@ -7,14 +7,39 @@
         <meta name="description" content="This is my personal website, my online resume. Please do NOT use the information for any other unauthorized purposes.">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="homepage.css">
+        <script src="https://kit.fontawesome.com/9deee357e8.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="background_sky">
+            <div class="header">
+                <a href="#contact" class="contact-link">Contact Me</a>
+            </div>
              <div class="avatar">
                 <img src="./images/avatar.jpg" alt="Avatar" height=auto width="100%" style="border-radius: 50%;">
              </div>
              <h1 class="greeting">Hi~ this is Yaxin Wang</h1>
              <h1 class="greeting2">Scroll down to know more about me!</h1>
+        </div>
+        <div class="body">
+            <div class="edu">
+                <h1>hi</h1>
+            </div>
+        </div>
+        <div id="contact">
+            <i class="fa-solid fa-envelope fa-rotate-by" style="--fa-rotate-angle: 20deg; font-size: 200px; color:chocolate; margin-left: 75%;"></i>
+            <h1 class="contact-guide">How to get in touch with me?</h1>
+            <h2 class="contact-guide">Contact me on 
+            <a href="https://www.linkedin.com/in/yaxin-wang-8a5a16227/" class="linkedin">LinkedIn</a></h2>
+            <h2 class="contact-guide">Or leave a message here!</h2>
+            <div class="message">
+                <form action="./message.php" method="post" autocomplete="on">
+                    <label for="name">Your Name</label><br>
+                    <textarea type="text" id="name" name="name" style="height:40px"></textarea><br>
+                    <label for="massage">Message</label><br>
+                    <textarea type="text" id="message" name="message" placeholder="enter your message here" style="height:100px"></textarea>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
         </div>
        
     </body>
