@@ -60,7 +60,7 @@
     margin-top: -25px;
     padding-bottom: 80px;
     min-height: 50vh;
-    background: linear-gradient(black, steelblue);
+    background: linear-gradient(black, rgb(96, 169, 228));
 }
 #edu{
     width: 10%;
@@ -110,14 +110,14 @@
 }
 @keyframes extend_l {
     from{width: 10%; height: 100px; font-size: 16px;}
-    to{width: 90%; height: 215px; font-size: 12px;}
+    to{width: 90%; height: 213px; font-size: 12px;}
 }
 @keyframes extend_s {
     from{width: 10%; height: 100px; font-size: 18px;}
     to{width: 90%; height: 185px; font-size: 10px;}
 }
 #contact{
-    background-color: steelblue;
+    background-color: rgb(96, 169, 228);
     background-image:url("./images/background-paper.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
